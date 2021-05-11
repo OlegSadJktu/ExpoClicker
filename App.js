@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import {NavigationContainer} from "@react-navigation/native";
+import 'react-native-gesture-handler';
+import {createStackNavigator} from "@react-navigation/stack";
 
-export default function App() {
+
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>чоб те такое написать</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -19,3 +23,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
+export default App;
